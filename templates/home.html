@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qrfy.xyz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel='icon' type="image/png" href="{{ url_for('static', filename='../static/images/qrcodeicon.png') }}">
+</head>
+
+<body>
+    <div class="content">
+        <div class='logo'>
+            <img id='logoid' src="{{ url_for('static', filename='../static/images/qrcodeicon.png') }}">
+        </div>
+        <label class='link-label'>
+            <h3 style="display:inline-block;">link</h3>
+            <p style="display: inline-block;">(youtube, imgur, etc...)</p>
+        </label>
+        <br>
+        <input type="url" class="link-url">
+        <br><br>
+        <button>qrfy</button>
+    </div>
+    
+</body>
+</html>
