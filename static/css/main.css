@@ -8,3 +8,8 @@
     width: 10%;
 
 }
+
+body {
+    font-family: "MonoLisa", monospace;
+    background-color: rgba(219, 134, 37, 0.664);
+}
