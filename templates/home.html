@@ -14,10 +14,12 @@
         <div class='title'>
             <h2>qrfy</h2>
             <img id='logoid' src="{{ url_for('static', filename='../static/images/qrcodeicon.png') }}">
-        </div>
+        </div> <br>
     <form method="POST">
-            <input name="text"> <br>
-            <input type="submit">qrfy</input>
+            <label>insert your link to qrfy</label> <br>
+            <label>(youtube, imgur, etc...)</label> <br> <br>
+            <input size='50%' name="the_url"> <br> <br>
+            <input type="submit" value='qrfy'>
     </form>
         <!----
         <label class='link-label'>
